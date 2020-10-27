@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  justify-content: center;
+}
+
+.App-header {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main {
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+}
+header {
+  padding: 25px;
+}
+body {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blur-bokeh-lens-flare-vintage-blue-sky-orange_147586-113.jpg");
+
+  text-align: center;
+}
+
+.mySidenav a {
+  position: fixed;
+  right: -120px;
+  transition: 0.3s;
+  padding: 15px;
+  height: 20px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  text-align: end;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mySidenav a:hover {
+  right: 0px;
+}
+
+.Cumpotiajuta {
+  top: 160px;
+  background-color: #64b5f6;
+}
+
+.Evenimente {
+  top: 220px;
+  background-color: #fdd835;
+}
+
+.ANAF {
+  top: 280px;
+  background-color: #4caf50;
+}
+
+.Arhiva {
+  top: 340px;
+  background-color: #555;
+}
+
+@media screen and (max-width: 1001px) {
+  .mySidenav a {
+    margin-top: 21%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mySidenav a {
+    margin-top: 21%;
+  }
+}

@@ -1,0 +1,20 @@
+.card-img {
+  border-radius: 50%;
+}
+.card {
+  background-color: none;
+  border: none;
+  align-items: center;
+}
+.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.d-flex div {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
